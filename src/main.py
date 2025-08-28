@@ -54,3 +54,4 @@ if __name__ == '__main__':
     weather_info = parse_weather_info(data)
     send_sms(weather_info)
     print("Finished")
+    print("Hello CI")
