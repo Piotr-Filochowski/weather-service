@@ -35,6 +35,7 @@ def weather_api(city):
     if response.status_code != 200:
         print(f'Weather API response code: {response.status_code}')
         sys.exit(0)
+
     return response.json()
 
 
